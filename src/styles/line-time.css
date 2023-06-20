@@ -1,0 +1,226 @@
+/*about-homer*/
+.about-line {
+  width: 100%;
+  margin-top: 0px;
+  background-color: #313131;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  overflow-x: hidden;
+}
+.about-line h3 {
+  font-size: 1.3em;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.timeline {
+  position: relative;
+  width: 100%;
+  margin: 20px auto;
+  padding-left: 50px;
+}
+.container {
+  padding: 15px 10px 15px 10px;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+.text-box {
+  padding: 20px 10px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 6px;
+}
+.photo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.photo img {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.text-box h4 {
+  font-size: 1em;
+  color: #533a8a;
+}
+.text-box article {
+  font-size: 13px;
+  margin: 7px auto;
+  text-align: justify;
+  font-weight: 500;
+}
+.text-box article ul {
+  padding: 20px;
+}
+.left-container {
+  left: 0;
+}
+.right-container {
+  left: 0;
+}
+.container .img-linea {
+  position: absolute;
+  border-radius: 50%;
+  left: -40px;
+  top: 32px;
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  z-index: 2;
+}
+.right-container .img-linea {
+  position: absolute;
+  border-radius: 50%;
+  left: -40px;
+  top: 32px;
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  z-index: 2;
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background-color: #533a8a;
+  top: 0;
+  left: 31px;
+  margin-left: -3px;
+  z-index: 1;
+  animation: moviline 6s linear forwards;
+  animation-iteration-count: 2;
+}
+@keyframes moviline {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+.covid {
+  width: 100%;
+  z-index: 10;
+}
+.covid img {
+  max-width: 100%;
+  z-index: 10;
+}
+/*about-homer*/
+
+@media (min-width: 768px) {
+  /*about-homer*/
+  .about-line {
+    width: 100%;
+    margin-top: 0px;
+    background-color: #313131;
+    padding-top: 15px;
+  }
+  .about-line h3 {
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .timeline {
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .container {
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    z-index: 2;
+  }
+
+  .text-box {
+    padding: 20px 10px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 6px;
+  }
+  .photo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .photo img {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+  }
+  .text-box h4 {
+    font-size: 1.1em;
+    color: #533a8a;
+  }
+  .text-box article {
+    font-size: 15px;
+    margin: 7px auto;
+    text-align: justify;
+    font-weight: 500;
+  }
+  .left-container {
+    left: 0;
+  }
+  .right-container {
+    left: 50%;
+  }
+  .container .img-linea {
+    position: absolute;
+    border-radius: 50%;
+    left: 94%;
+    top: 32px;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    z-index: 2;
+  }
+  .right-container .img-linea {
+    position: absolute;
+    border-radius: 50%;
+    left: -30px;
+    top: 32px;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    z-index: 2;
+  }
+  .timeline::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background-color: #533a8a;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 1;
+    animation: moviline 6s infinite linear forwards;
+    animation-iteration-count: 2;
+  }
+  @keyframes moviline {
+    0% {
+      height: 0;
+    }
+    100% {
+      height: 100%;
+    }
+  }
+
+  /*about-homer*/
+}

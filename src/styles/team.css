@@ -1,0 +1,80 @@
+.team {
+  width: 100%;
+  overflow-x: hidden;
+}
+.team h2 {
+  color: #2e2e2e;
+  font-size: 2em;
+  text-align: center;
+  margin: 12px auto;
+}
+.container-team {
+  width: 95%;
+  display: grid;
+  grid-template-areas:
+    "item1 item2"
+    "item1 item5"
+    "item6 item3"
+    "item7 item3"
+    "item4  item8"
+    "item4 item9";
+  gap: 20px;
+  margin: auto;
+}
+.item-team:nth-child(1) {
+  grid-area: item1;
+}
+.item-team:nth-child(2) {
+  grid-area: item2;
+}
+.item-team:nth-child(3) {
+  grid-area: item3;
+}
+.item-team:nth-child(4) {
+  grid-area: item4;
+}
+.item-team:nth-child(5) {
+  grid-area: item5;
+}
+.item-team:nth-child(6) {
+  grid-area: item6;
+}
+.item-team:nth-child(7) {
+  grid-area: item7;
+}
+.item-team:nth-child(8) {
+  grid-area: item8;
+}
+.item-team:nth-child(9) {
+  grid-area: item9;
+}
+.item-team img {
+  max-width: 100%;
+}
+@media (min-width: 768px) {
+  .team h2 {
+    color: #2e2e2e;
+    font-size: 2.7em;
+    text-align: center;
+    margin: 12px auto;
+  }
+  .container-team {
+    width: 95%;
+    display: grid;
+    grid-template-areas:
+      "item2 item5 item6"
+      "item1 item3 item4"
+      "item7 item8 item9";
+    gap: 20px;
+    margin: auto;
+  }
+  .item-team {
+    transition: 0.7s;
+    filter: grayscale(100%);
+  }
+  .item-team:hover {
+    transform: scale(0.9);
+    filter: grayscale(0);
+    transition: 0.7s;
+  }
+}

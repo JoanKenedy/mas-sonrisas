@@ -1,0 +1,111 @@
+.services {
+  width: 100%;
+  background-color: black;
+  padding-bottom: 20px;
+  overflow-x: hidden;
+}
+.services h2 {
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 15px;
+}
+.container-services {
+  width: 90%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
+  text-align: center;
+}
+.item-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 20px;
+  gap: 12px;
+}
+.item-services img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.item-services h2 {
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #2e2e2e;
+  padding-top: 0px;
+}
+.item-services a {
+  background-color: #797575;
+  width: 170px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .services {
+    width: 100%;
+    background-color: black;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+  }
+  .services h2 {
+    color: #fff;
+    font-size: 2.8em;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 15px;
+  }
+  .container-services {
+    width: 90%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    text-align: center;
+  }
+  .item-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 20px;
+    gap: 12px;
+    transition: 0.7s all;
+  }
+  .item-services:hover {
+    transform: scale(0.9);
+    transition: 0.7s all;
+  }
+  .item-services:hover a {
+    background-color: black;
+  }
+  .item-services img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .item-services h2 {
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #2e2e2e;
+    padding-top: 0px;
+  }
+  .item-services a {
+    background-color: #797575;
+    width: 170px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.7s all;
+  }
+}

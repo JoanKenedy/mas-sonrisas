@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Foto1 from "../assets/c-1.png";
+import Foto1 from "../assets/team.jpg";
 import "../styles/about.css";
 const About = () => {
   return (
@@ -9,10 +9,16 @@ const About = () => {
       <div className="container-about">
         <div className="item-about">
           <p>
-            Somos una clinica de servicios a la salud bucodental, enfocada en el
-            reestablecimiento de la funcionalidad sin dejar la parte estetica ,
-            donde buscamos realmente la salud del paciente con trabajos en
-            excelencia a un nivel poco visto en el mercado.
+            Somos una clínica con un equipo de trabajo capacitado para resolver
+            los problemas de salud bucal y devolver su sonrisa, enfocándonos en
+            realizar diagnósticos adecuados para hacer tratamientos acertados,
+            con materiales de última generación y alta calidad.
+          </p>
+          <p>
+            ¿Deseas mejorar tu estética dental? Si tu respuesta es afirmativa,
+            ¡has encontrado el lugar correcto para ti! En Mas sonrisas contamos
+            con una variedad de tratamientos odontológicos que te brindarán la
+            ayuda que necesitas para mejorar tu estética dental
           </p>
           <Link to="/nosotros"> Nuestra historia</Link>
         </div>

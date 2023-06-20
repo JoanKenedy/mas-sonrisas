@@ -8,6 +8,7 @@ import Logo from "./assets/logo-1.png";
 import "./App.css";
 import Servicios from "./pages/Servicios";
 import Casos from "./pages/Casos";
+import Footer from "./components/Footer";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -35,6 +36,7 @@ function App() {
             <Route path="/servicios" element={<Servicios />} />
             <Route path="/casos" element={<Casos />} />
           </Routes>
+          <Footer />
         </div>
       )}
     </>

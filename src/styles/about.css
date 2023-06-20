@@ -15,7 +15,7 @@
 }
 .item-about p {
   text-align: justify;
-  font-size: 1.1em;
+  font-size: 0.9em;
 }
 .item-about img {
   max-width: 100%;
@@ -56,7 +56,7 @@
   }
   .item-about p {
     text-align: justify;
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
   .item-about img {
     max-width: 100%;
