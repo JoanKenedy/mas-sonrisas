@@ -1,0 +1,116 @@
+.servicios {
+  width: 100%;
+  overflow-x: hidden;
+}
+.servicios h2 {
+  color: #2e2e2e;
+  font-size: 2em;
+  text-align: center;
+}
+.container-servicios {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  margin: 20px auto;
+}
+.item-todos-servicios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid #2e2e2e;
+  padding: 25px;
+}
+.item-todos-servicios img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.item-todos-servicios h2 {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.text-down {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.text-down i {
+  margin-left: 0px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.text-show {
+  display: none;
+}
+.text-show.visibilidad {
+  display: block;
+}
+.text-show p {
+  text-align: justify;
+  color: black;
+}
+@media (min-width: 768px) {
+  .servicios {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .servicios h2 {
+    color: #2e2e2e;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 12px auto;
+  }
+  .container-servicios {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px auto;
+  }
+  .item-todos-servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid #2e2e2e;
+    padding: 30px 20px;
+  }
+  .item-todos-servicios img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+  }
+  .item-todos-servicios h2 {
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .text-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .text-down i {
+    font-size: 25px;
+    margin-left: none;
+    font-weight: 700;
+  }
+  .text-show {
+    display: none;
+  }
+  .text-show.visibilidad {
+    display: block;
+  }
+  .text-show p {
+    text-align: justify;
+    color: black;
+  }
+}

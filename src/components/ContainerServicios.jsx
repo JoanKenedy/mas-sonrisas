@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/servicios.css";
 import servicio1 from "../assets/estetica.png";
 import servicio2 from "../assets/invasiva.png";
@@ -76,16 +76,39 @@ const ContainerServicios = () => {
         "La endodoncia es un procedimiento que tiene como finalidad preservar las piezas dentales dañadas, evitando así su pérdida. Para ello, se extrae la pulpa dental y la cavidad resultante, se rellena y sella con material inerte y biocompatible.",
     },
   ];
+  const [selected, setSelected] = useState(null);
+  const toggle = (index) => {
+    if (selected === index) {
+      return setSelected(null);
+    }
+    setSelected(index);
+  };
+
   return (
     <div className="servicios">
       <h2>Todos nuestros servicios</h2>
       <div className="container-servicios">
         {servicios.map((servicio, index) => {
           return (
-            <div className="item-todos-servicios" key={index}>
+            <div
+              className="item-todos-servicios"
+              key={index}
+              id="item-todos-servicios"
+            >
               <img src={servicio.imgServicio} alt="" />
-              <h2>{servicio.title}</h2>
-              <p>{servicio.texto}</p>
+              <div className="text-down" onClick={() => toggle(index)}>
+                <h2>{servicio.title}</h2>
+
+                <i class="fa-solid fa-plus"></i>
+              </div>
+
+              <div
+                className={`text-show ${
+                  selected === index ? "text-show visibilidad" : ""
+                }`}
+              >
+                <p>{servicio.texto}</p>
+              </div>
             </div>
           );
         })}

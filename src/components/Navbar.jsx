@@ -73,14 +73,11 @@ const Navbar = () => {
           <div className={`menu-down ${isOpen ? "up" : ""}`} id="menu-down">
             <h2>Síguenos</h2>
             <div className="redes-menu-down">
-              <a
-                href="https://www.facebook.com/Regal.ResidencesMX"
-                target="_blank"
-              >
+              <a href="https://www.facebook.com/massonrisasmx/" target="_blank">
                 <i class="fa-brands fa-facebook"></i>
               </a>
               <a
-                href="https://instagram.com/regal.residencesmx?igshid=ZDc4ODBmNjlmNQ=="
+                href="https://www.instagram.com/massonrisasmx/"
                 target="_blank"
               >
                 <i class="fa-brands fa-square-instagram"></i>

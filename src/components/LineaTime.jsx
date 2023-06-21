@@ -13,15 +13,8 @@ const LineaTime = () => {
         >
           <div class="text-box">
             <div class="photo">
-              <h4>Mi nombre es: Liliana Samahara Aldana Acosta</h4>
+              <h4>Mi nombre es: Adrian Moreno Molinaa</h4>
             </div>
-
-            <article>
-              Soy Cirujana Dentista egresada de la UNAM, desde el año 2007 a la
-              fecha, también soy especialista en ortodoncia y ortopedia maxilar
-              desde el 2009. Hize 2 diplomados en implantología oral y un
-              diplomado en rehabilitación protésica sobre implantes.{" "}
-            </article>
           </div>
         </div>
         <div
@@ -31,14 +24,13 @@ const LineaTime = () => {
         >
           <div class="text-box">
             <div class="photo">
-              <h4>Preocupada por el miedo que representa ir al dentista</h4>
+              <h4>Preocupado por el miedo que representa ir al dentista</h4>
             </div>
 
             <article>
-              {" "}
               Tome un curso de aromaterapia, musicoterapia para que tu consulta
               sea más relájante, además de ser Acupunturista todo enfocado a la
-              odontología.{" "}
+              odontología.
             </article>
           </div>
         </div>
@@ -52,10 +44,9 @@ const LineaTime = () => {
               <h4>En mi consultorio tengo colegas colaboradores</h4>
             </div>
             <article>
-              {" "}
               Que cuentan también con excelente preparación en la rama
               odontológica. Mi misión es: “Dar un servicio de calidad a mis
-              pacientes como si fueran mi familia”.{" "}
+              pacientes como si fueran mi familia”.
             </article>
           </div>
         </div>
@@ -76,19 +67,17 @@ const LineaTime = () => {
                 <li> Diplomado Implantología oral básica (Ciore)</li>
                 <li> Diplomado Implantología oral avanzada (Ciore) </li>
                 <li>
-                  {" "}
                   Diplomado Rehabilitación protésica sobre implantes (Ciore)
                 </li>
                 <li>
-                  {" "}
                   Curso en Acupuntura y medicina tradicional china (Ming Men)
                 </li>
                 <li>
                   Cursos : Manejo de tejidos blandos, Elevación del seno maxilar
                   , Ortoimplantes , Microimplantes para sobredentaduras, Resinas
-                  inyectadas.{" "}
+                  inyectadas.
                 </li>
-              </ul>{" "}
+              </ul>
             </article>
           </div>
         </div>

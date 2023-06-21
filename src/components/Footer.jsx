@@ -48,11 +48,11 @@ const Footer = () => {
       <div className="footer-footer">
         <div className="container-footer-footer">
           <div className="item-footer-footer">
-            <a href="">
+            <a href="https://www.facebook.com/massonrisasmx/" target="_blank">
               <i class="fa-brands fa-facebook"></i>
               Facebook
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/massonrisasmx/" target="_blank">
               <i class="fa-brands fa-square-instagram"></i>
               Instagram
             </a>
