@@ -15,7 +15,7 @@ const HeroCasos = () => {
           data-aos="fade-down"
           data-aos-duration="1000"
         >
-          <h3 className="h2-text">Casos de éxito</h3>
+          <h3>Casos de éxito</h3>
           <p>La prueba de nuestro éxito , es nuestro excelente trabajo.</p>
           <a
             href="https://api.whatsapp.com/send?phone=525635757265"

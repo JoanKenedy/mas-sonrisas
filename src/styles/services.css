@@ -100,16 +100,18 @@
   text-align: justify;
   font-size: 0.9em;
 }
-.modal-services-home a {
+#btnAncla {
   background-color: #2e2e2e !important;
   display: block;
-  margin: auto;
+  margin: 12px auto;
   width: 200px;
   color: #fff !important;
   text-decoration: none;
   font-size: 1.1em;
+  text-align: center;
+  padding: 10px;
 }
-.services a {
+#btn-modal {
   display: block;
   margin: 20px auto;
   text-align: center;
@@ -159,12 +161,8 @@
     background-color: #fff;
     padding: 20px;
     gap: 12px;
-    transition: 0.7s all;
   }
-  .item-services:hover {
-    transform: scale(0.9);
-    transition: 0.7s all;
-  }
+
   .item-services:hover a {
     background-color: black;
   }
@@ -188,7 +186,7 @@
     text-decoration: none;
     transition: 0.7s all;
   }
-  .services a {
+  #btn-modal {
     display: block;
     margin: auto;
     text-align: center;
@@ -211,7 +209,7 @@
   .container-modal-services {
     width: 40%;
     background-color: #fff;
-    height: 80vh;
+    height: 75vh;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -234,5 +232,16 @@
     font-weight: 400;
     text-align: justify;
     font-size: 1.1em;
+  }
+  #btnAncla {
+    background-color: #2e2e2e !important;
+    display: block;
+    margin: 17px auto;
+    width: 200px;
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 10px;
   }
 }

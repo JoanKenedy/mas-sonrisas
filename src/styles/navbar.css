@@ -218,12 +218,15 @@
   }
   .btn-header-contacto {
     display: inline-block;
-    width: 170px;
+    width: 150px;
     background-color: #fff;
     color: #000 !important;
     text-align: center;
     text-decoration: none;
     padding: 12px;
     font-weight: bold !important;
+  }
+  .nav-link a i {
+    font-size: 35px;
   }
 }

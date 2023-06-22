@@ -11,10 +11,6 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleNabvar = () => {
-    setIsNavbar(!isNavbar);
-  };
-
   const navbarBackground = () => {
     if (window.scrollY > 80) {
       setIsNavbar(true);
@@ -88,23 +84,21 @@ const Navbar = () => {
         <nav className="navbar-descktop">
           <div className="container-descktop">
             <div className="nav-link">
-              <Link to="/" onClick={() => setIsNavbar(!isNavbar)}>
-                Inicio
-              </Link>
+              <Link to="/">Inicio</Link>
             </div>
 
-            <div className="nav-link" onClick={() => setIsNavbar(!isNavbar)}>
+            <div className="nav-link">
               <Link to="/nosotros">Nosotros</Link>
             </div>
 
-            <div className="nav-link" onClick={() => setIsNavbar(!isNavbar)}>
+            <div className="nav-link">
               <Link to="/servicios">Servicios</Link>
             </div>
 
-            <div className="nav-link" onClick={() => setIsNavbar(!isNavbar)}>
+            <div className="nav-link">
               <Link to="/casos">Casos de éxito</Link>
             </div>
-            <div className="nav-link" onClick={() => setIsNavbar(!isNavbar)}>
+            <div className="nav-link">
               <a href="tel:5635757265" className="btn-header-contacto">
                 5635757265
               </a>

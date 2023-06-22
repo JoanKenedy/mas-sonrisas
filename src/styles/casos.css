@@ -1,14 +1,18 @@
-.casos {
+.hero-casos {
   background-color: #2e2e2e;
-  height: 80vh;
+  height: 100vh;
+  width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  overflow-x: hidden;
 }
 .container-casos {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  padding: 20px;
+  gap: 15px;
 }
 .item-casos {
   display: flex;
@@ -16,21 +20,24 @@
   align-items: center;
   flex-direction: column;
 }
-.casos h2 {
-  color: #fff;
-  font-size: 2em;
-  text-align: center;
-}
-.casos img {
+.item-casos img {
   max-width: 100%;
 }
-.casos p {
+.item-casos h2 {
+  color: #fff;
+  font-size: 2.1em;
+}
+.item-casos h3 {
+  display: none;
+}
+.item-casos p {
   color: #fff;
   font-size: 1.1em;
-  text-align: justify;
-  font-weight: 500;
+  font-weight: 700;
+  text-align: center;
 }
-.casos a {
+
+.item-casos a {
   display: block;
   margin: 12px auto;
   background-color: #fff;
@@ -42,17 +49,16 @@
   padding: 10px;
   font-weight: 600;
 }
-.h2-text {
-  display: none;
-}
+
 @media (min-width: 768px) {
-  .casos {
+  .hero-casos {
     background-color: #2e2e2e;
-    height: 100vh;
+    height: 85vh;
+    width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
   }
   .container-casos {
     display: grid;
@@ -66,26 +72,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 15px;
   }
-  .casos h2 {
-    color: #fff;
-    font-size: 2.1em;
-    text-align: center;
-    display: none;
-  }
-  .casos img {
-    width: 100%;
-    height: 470px;
-    object-fit: cover;
-    margin-top: 100px;
-  }
-  .casos p {
-    color: #fff;
-    font-size: 2em;
-    text-align: justify;
-    font-weight: 500;
-  }
-  .casos a {
+
+  .item-casos a {
     display: block;
     margin: 20px auto;
     background-color: #fff;
@@ -97,10 +87,15 @@
     padding: 15px;
     font-weight: 600;
   }
-  .h2-text {
+  .item-casos h2 {
+    display: none;
+  }
+  .item-casos h3 {
     display: block;
-    font-size: 2.5em;
     color: #fff;
-    margin-bottom: 12px;
+    font-size: 2.8em;
+  }
+  .item-casos p {
+    font-size: 1.8em;
   }
 }

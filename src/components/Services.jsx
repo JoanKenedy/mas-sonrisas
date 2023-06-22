@@ -58,6 +58,8 @@ const Services = () => {
        <a
             href="https://api.whatsapp.com/send?phone=525635757265"
             target="_blank"
+            id="btnAncla"
+            
           >
           
             Contacto
@@ -144,7 +146,9 @@ const Services = () => {
         <i class="fa-solid fa-x" onClick={() => setIsModal(false)}></i>
         <div className="container-modal-services" id="modalContainer"></div>
       </div>
-      <Link to="/servicios">Todos los servicios</Link>
+      <Link to="/servicios" id="btn-modal">
+        Todos los servicios
+      </Link>
     </div>
   );
 };

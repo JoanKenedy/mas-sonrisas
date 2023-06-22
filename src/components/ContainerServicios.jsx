@@ -110,6 +110,12 @@ const ContainerServicios = () => {
                 }`}
               >
                 <p>{servicio.texto}</p>
+                <a
+                  href="https://api.whatsapp.com/send?phone=525635757265"
+                  target="_blank"
+                >
+                  Contáctanos
+                </a>
               </div>
             </div>
           );
