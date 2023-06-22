@@ -48,7 +48,7 @@
 }
 .text-box h4 {
   font-size: 1em;
-  color: #533a8a;
+  color: #2e2e2e;
 }
 .text-box article {
   font-size: 13px;
@@ -90,7 +90,7 @@
   position: absolute;
   width: 6px;
   height: 100%;
-  background-color: #533a8a;
+  background-color: #fff;
   top: 0;
   left: 31px;
   margin-left: -3px;
@@ -166,7 +166,6 @@
   }
   .text-box h4 {
     font-size: 1.1em;
-    color: #533a8a;
   }
   .text-box article {
     font-size: 15px;
@@ -205,7 +204,7 @@
     position: absolute;
     width: 6px;
     height: 100%;
-    background-color: #533a8a;
+
     top: 0;
     left: 50%;
     margin-left: -3px;

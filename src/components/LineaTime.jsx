@@ -13,7 +13,7 @@ const LineaTime = () => {
         >
           <div class="text-box">
             <div class="photo">
-              <h4>Mi nombre es: Adrian Moreno Molinaa</h4>
+              <h4>Mi nombre es: Adrian Moreno Molina</h4>
             </div>
           </div>
         </div>

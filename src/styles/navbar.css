@@ -197,7 +197,7 @@
     font-size: 1.1em;
     text-decoration: none;
     color: #fff;
-    text-transform: capitalize;
+
     font-weight: 500;
   }
   .nav-link a::after {

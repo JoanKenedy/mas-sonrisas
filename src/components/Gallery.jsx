@@ -85,6 +85,8 @@ const Gallery = () => {
               className="item-gallery"
               key={index}
               onClick={() => getImg(item.imgSrc)}
+              data-aos="zoom-in"
+              data-aos-duration="1500"
             >
               <img src={item.imgSrc} alt="" style={{ width: "100%" }} />
             </div>

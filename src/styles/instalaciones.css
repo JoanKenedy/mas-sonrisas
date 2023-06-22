@@ -20,6 +20,11 @@
 .item-gallery {
   transition: all 350ms ease;
   cursor: pointer;
+  transition: 0.7s;
+}
+.item-gallery:hover {
+  transform: scale(0.9);
+  transition: 0.7s;
 }
 .model {
   width: 100%;

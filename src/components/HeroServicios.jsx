@@ -3,7 +3,7 @@ import "../styles/hero-servicios.css";
 
 const HeroServicios = () => {
   return (
-    <div className="hero-servicios">
+    <div className="hero-servicios" id="heroServicios">
       <div className="container-hero-servicios">
         <h2>
           <span>"</span> Comienza el día con una sonrisa, veras lo divertido que

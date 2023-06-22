@@ -9,6 +9,7 @@ import "./App.css";
 import Servicios from "./pages/Servicios";
 import Casos from "./pages/Casos";
 import Footer from "./components/Footer";
+import HeroServicios from "./components/HeroServicios";
 
 function App() {
   const [loading, setLoading] = useState(false);

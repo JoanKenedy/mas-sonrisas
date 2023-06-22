@@ -46,7 +46,7 @@ const Navbar = () => {
               Servicios
             </Link>
             <Link to="/casos" onClick={() => handleClick(!isOpen)}>
-              Casos reales
+              Casos de éxito
             </Link>
           </div>
           <div className={`menu-middle ${isOpen ? "left" : ""}`}>
@@ -102,7 +102,7 @@ const Navbar = () => {
             </div>
 
             <div className="nav-link" onClick={() => setIsNavbar(!isNavbar)}>
-              <Link to="/casos">Casos reales</Link>
+              <Link to="/casos">Casos de éxito</Link>
             </div>
             <div className="nav-link" onClick={() => setIsNavbar(!isNavbar)}>
               <a href="tel:5635757265" className="btn-header-contacto">

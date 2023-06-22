@@ -6,7 +6,11 @@ const Footer = () => {
     <div className="footer">
       <h2>Contacto</h2>
       <div className="container-footer">
-        <div className="item-footer">
+        <div
+          className="item-footer"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           <form action="">
             <div className="container-form">
               <div className="input-container">
@@ -36,7 +40,11 @@ const Footer = () => {
             </div>
           </form>
         </div>
-        <div className="item-footer">
+        <div
+          className="item-footer"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <img src={mapa} alt="" />
           <p>
             Dirección: Tepic 139 Interior 902, Roma Sur Cuauhtémoc Ciudad de

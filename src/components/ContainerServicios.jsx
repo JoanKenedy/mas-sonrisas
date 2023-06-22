@@ -94,6 +94,8 @@ const ContainerServicios = () => {
               className="item-todos-servicios"
               key={index}
               id="item-todos-servicios"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
             >
               <img src={servicio.imgServicio} alt="" />
               <div className="text-down" onClick={() => toggle(index)}>

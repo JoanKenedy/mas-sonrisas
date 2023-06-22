@@ -5,9 +5,11 @@ import "../styles/about.css";
 const About = () => {
   return (
     <div className="about">
-      <h2>Nosotros</h2>
+      <h2 data-aos="fade-up" data-aos-duration="1000">
+        Nosotros
+      </h2>
       <div className="container-about">
-        <div className="item-about">
+        <div className="item-about" data-aos="fade-up" data-aos-duration="1000">
           <p>
             Somos una clínica con un equipo de trabajo capacitado para resolver
             los problemas de salud bucal y devolver su sonrisa, enfocándonos en
@@ -22,7 +24,7 @@ const About = () => {
           </p>
           <Link to="/nosotros"> Nuestra historia</Link>
         </div>
-        <div className="item-about">
+        <div className="item-about" data-aos="fade-up" data-aos-duration="1000">
           <img src={Foto1} alt="" />
         </div>
       </div>

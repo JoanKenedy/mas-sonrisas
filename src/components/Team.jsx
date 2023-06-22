@@ -55,7 +55,12 @@ function Team() {
       <div className="container-team">
         {team.map((item, index) => {
           return (
-            <div className="item-team" key={index}>
+            <div
+              className="item-team"
+              key={index}
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
               <img src={item.imgTeam} alt="" />
             </div>
           );

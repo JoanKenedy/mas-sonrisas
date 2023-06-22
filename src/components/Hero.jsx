@@ -21,7 +21,7 @@ const Hero = () => {
         spaceBetween={30}
         effect={"fade"}
         autoplay={{
-          delay: 4500,
+          delay: 4000,
           disableOnInteraction: false,
         }}
         navigation={true}
@@ -34,7 +34,11 @@ const Hero = () => {
         <SwiperSlide>
           <img src={Slider3} className="img-slider" />
           <img src={Slider1} alt="" className="img-movil" />
-          <div className="container-text">
+          <div
+            className="container-text"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <div className="text-slider">
               <p>¡Más sonrisas, pacientes más felices!</p>
             </div>
@@ -43,7 +47,12 @@ const Hero = () => {
         <SwiperSlide>
           <img src={Slider4} className="img-slider" />
           <img src={Slider2} alt="" className="img-movil" />
-          <div className="container-text">
+          <div
+            className="container-text"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-delay="4500"
+          >
             <div className="text-slider">
               <p>
                 ¡Trabajos en excelencia a un nivel poco visto en el mercado. !
