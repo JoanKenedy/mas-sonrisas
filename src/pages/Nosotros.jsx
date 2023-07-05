@@ -19,6 +19,7 @@ const Nosotros = () => {
     <div>
       <HeroAbout />
       <LineaTime />
+
       <Team />
     </div>
   );

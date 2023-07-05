@@ -13,7 +13,10 @@ const LineaTime = () => {
         >
           <div class="text-box">
             <div class="photo">
-              <h4>Mi nombre es: Adrian Moreno Molina</h4>
+              <h4>
+                Mi nombre es: Adrian Moreno Molina <br /> Fundador de Más
+                Sonrisas
+              </h4>
             </div>
           </div>
         </div>
@@ -24,13 +27,20 @@ const LineaTime = () => {
         >
           <div class="text-box">
             <div class="photo">
-              <h4>Preocupado por el miedo que representa ir al dentista</h4>
+              <h4>
+                Más sonrisas nació de un pequeño consultorio al norponiente de
+                la ciudad hace 9 años, motivados por atender todos los problemas
+                de salud bucodental de esa localidad.
+              </h4>
             </div>
 
             <article>
-              Tome un curso de aromaterapia, musicoterapia para que tu consulta
-              sea más relájante, además de ser Acupunturista todo enfocado a la
-              odontología.
+              Donde se pudo entender la mayor cantidad de problemas de los
+              pacientes y encontrando así un problema en común, una atención
+              odontóloga previa deficiente con malos diagnósticos , afectando no
+              solo la estética facial del paciente, si no el mal funcionamiento
+              de todo su sistema masticatorio, afectando de forma directa el
+              bolsillo de los pacientes.
             </article>
           </div>
         </div>
@@ -41,12 +51,64 @@ const LineaTime = () => {
         >
           <div class="text-box">
             <div class="photo">
-              <h4>En mi consultorio tengo colegas colaboradores</h4>
+              <h4>
+                Donde el objetivo de la mayoría de profesionales solo se enfocan
+                en realizar CANTIDAD de tratamientos en lugar de CALIDAD de los
+                mismos.
+              </h4>
             </div>
             <article>
-              Que cuentan también con excelente preparación en la rama
-              odontológica. Mi misión es: “Dar un servicio de calidad a mis
-              pacientes como si fueran mi familia”.
+              Hoy en día ubicados en el lugar con más auge de atención médica
+              dental de la ciudad, en la colonia Roma sur.
+            </article>
+          </div>
+        </div>
+        <div
+          class="container right-container"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
+          <div class="text-box">
+            <div class="photo">
+              <h4>¿TE HA PASADO ALGO SIMILAR?</h4>
+            </div>
+            <article>
+              Preocúpados por este problema en común del groso de los pacientes,
+              comenzamos una filosofía de trabajo diferente, “SLOW DENTISTRY”
+              (odontología lenta). Esta filosofía de trabajo comprende múltiples
+              beneficios, tanto para ti, como para nosotros como profesionales.
+              Atenderte como a un integrante mas de nuestra familia.
+            </article>
+          </div>
+        </div>
+        <div
+          class="container left-container"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
+          <div class="text-box">
+            <div class="photo">
+              <h4>¿QUE ES EL SLOW DENTISTRY?</h4>
+            </div>
+            <article>
+              <ul>
+                <li>
+                  En el mundo de la estética y la salud dental es una filosofía
+                  de trabajo que hace referencia al cuidado, esmero, rigor y
+                  profesionalidad que caracteriza a un perfil de dentista
+                  especialmente empático con el resultado final del paciente. En
+                  el mundo de la odontología estética, es frecuente observar
+                  cómo se incurre en el pronto resultado…. ansiar mucho
+                  resultado en muy poco tiempo… pero la salud dental, ¿es
+                  cuestión de velocidad o de esmero y rigor?
+                </li>
+                <li>
+                  Es importante no confundir el concepto ‘slow’ con la Velociad
+                  del tratamiento de cada profesional. El concepto ‘slow’ reside
+                  más bien en lo sostenible de los procesos odontológicos que un
+                  profesional realiza en pro de la máxima calidad.
+                </li>
+              </ul>
             </article>
           </div>
         </div>
@@ -58,24 +120,23 @@ const LineaTime = () => {
           <div class="text-box">
             <div class="photo">
               <h4>
-                Mi compromiso es brindar calidad y seguridad en sus tratamientos
-                dentales por eso estoy en constante preparación, tengo:
+                La clave del método ‘slow’ consiste pues en ofrecer un trabajo
+                excelente en un número reducido de pacientes, dando así el
+                tiempo adecuado para cada paciente personalizando tratamientos
+                de alta calidad y estética.
               </h4>
             </div>
             <article>
               <ul>
-                <li> Diplomado Implantología oral básica (Ciore)</li>
-                <li> Diplomado Implantología oral avanzada (Ciore) </li>
                 <li>
-                  Diplomado Rehabilitación protésica sobre implantes (Ciore)
-                </li>
-                <li>
-                  Curso en Acupuntura y medicina tradicional china (Ming Men)
-                </li>
-                <li>
-                  Cursos : Manejo de tejidos blandos, Elevación del seno maxilar
-                  , Ortoimplantes , Microimplantes para sobredentaduras, Resinas
-                  inyectadas.
+                  El slow dentistry lleva consigo la seguridad y confianza que
+                  exige el paciente de hoy en día. Una persona que se pone en
+                  manos de un profesional de la salud bucodental, necesita
+                  encontrar el mejor trato, servicio y seguimiento de su
+                  patología. En definitiva, slow dentistry es un criterio muy
+                  recomendable en el modo de hacer las cosas por parte de
+                  profesión odontológica, un modelo de calidad en el que creemos
+                  y que aplicamos en Más Sonrisas.
                 </li>
               </ul>
             </article>
@@ -88,17 +149,46 @@ const LineaTime = () => {
         >
           <div class="text-box">
             <div class="photo">
-              <h4>Y tengo certificaciones que me avalan:</h4>
+              <h4>
+                Todo profesional del sector sabe que un buen tratamiento
+                sostenible que garantice la satisfacción al cliente, necesita un
+                período mínimo de atención, cuidado y servicio exclusivo que no
+                es compatible, desde luego, con esas fórmulas low cost que tanto
+                proliferan en los últimos años.
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container right-container"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
+          <div class="text-box">
+            <div class="photo">
+              <h4>¿CUAL ES EL PERFIL DE NUESTROS PROFESIONALES?</h4>
             </div>
             <article>
               <ul>
                 <li>
-                  Certificación como cirujano Dentista por Universidad de
-                  Morelos
+                  <h4>
+                    Odontólogos y especialistas dedicados y apasionados, con
+                    devolver la salud de tu sonrisa, empáticos y preocupados por
+                    ofrecer tratamientos de alta calidad , altamente capacitados
+                    y reconocidos a nivel nacional por el gremio odontológico,
+                    ofreciendo garantías extendidas buscando la satisfacción
+                    TOTAL de nuestros pacientes.
+                  </h4>
                 </li>
                 <li>
-                  Certificación en ortodoncia y ortopedia maxilar por Colegio de
-                  Especialistas en Ortodoncia de México AC.
+                  <h4>
+                    Nuestra historia es y esta basada en la prioridad de todo
+                    servicio de salud debería tener. Calidad - Confianza- y
+                    Durabilidad. Siempre en Pro del paciente. Es así como Más
+                    Sonrisas ha tenido el éxito Obtenido. Enfocados en cambiar
+                    la odontología Mexicana. Te esperamos para que seas parte de
+                    esta historia.
+                  </h4>
                 </li>
               </ul>
             </article>

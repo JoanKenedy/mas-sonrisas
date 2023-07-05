@@ -56,11 +56,11 @@
   }
   .item-about p {
     text-align: justify;
-    font-size: 1.1em;
+    font-size: 1em;
   }
   .item-about img {
     max-width: 100%;
-    height: 420px;
+    height: auto;
     object-fit: cover;
   }
   .item-about a {
@@ -68,10 +68,10 @@
     color: #fff;
     text-align: center;
     display: block;
-    width: 250px;
+    width: 220px;
     padding: 15px;
     text-decoration: none;
-    margin: 12px auto;
-    font-size: 1.4em;
+    margin: 7px auto;
+    font-size: 1.3em;
   }
 }

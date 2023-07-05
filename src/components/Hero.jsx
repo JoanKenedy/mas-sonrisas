@@ -9,9 +9,9 @@ import "swiper/css/effect-fade";
 
 // import required modules
 import { Autoplay, EffectFade } from "swiper";
-import Slider1 from "../assets/sonrisa.jpg";
-import Slider2 from "../assets/sonrisa2.jpg";
-import Slider3 from "../assets/sonrisa3.jpg";
+import Slider1 from "../assets/doctor.jpg";
+import Slider2 from "../assets/doctora.jpg";
+import Slider3 from "../assets/portada.jpg";
 import Slider4 from "../assets/sonrisa4.jpg";
 
 const Hero = () => {

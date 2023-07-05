@@ -181,13 +181,13 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 60%;
+    width: 65%;
   }
   .container-descktop {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
     position: relative;
   }
   .nav-link {

@@ -14,21 +14,21 @@ const Services = () => {
       title: "Estética Restauradora",
       imgServicio: servicio1,
       texto:
-        "Un candidato para la estétetica restauradora debe visitar a su dentista general, quien formulará un plan de tratamiento para lograr el resultado deseado. En más sonrisas y nuestro enfoque dinámico e innovador en el manejo de la estética dental nos diferencea de los demas.",
+        "Es la rama de la odontología que trabaja en el área de la restauración dental. Especialidad más utilizada en la práctica odontológica. Su atención se centra en la restauración de los dientes,que es una medida importante para la salud del individuo, siempre pensando en la aceptación del tratamiento, ya que entre menos se vea una restauración, mejor aceptada será para el paciente. Comprende tratamientos como: Resinas estéticas, Blanqueamientos, Carillas de resina, Carillas de cerámica y Coronas ",
     },
     {
       id: 2,
       title: "Odontología General",
       imgServicio: servicio2,
       texto:
-        "La Odontología General es la especialidad que se centra en el diagnóstico, tratamiento y prevención de los problemas primarios que tienen que ver con la salud bucodental. Incluye no sólo a los problemas que afectan a los dientes, sino también a las encías, el tejido periodontal y la articulación temporomandibular.",
+        "La odontología general es la encargada de solucionar los problemas más comunes que aparecen en el día a día en su boca. Este campo esta encargado a realizar un filtro donde abarcan prevención, diagnostico , y tratamientos de mantenimiento como: Limpiezas, Aplicación de Fluor, Mantenimiento de restauraciones previas y Resinas",
     },
     {
       id: 3,
       title: "Cirugía Maxilofacial",
       imgServicio: servicio3,
       texto:
-        "La cirugía maxilofacial es la especialidad médico-quirúrgica que se centra en el estudio, diagnóstico, tratamiento y rehabilitación de las enfermedades congénitas o adquiridas de la cavidad oral, el esqueleto facial y las estructuras cervicales relacionadas. El cirujano maxilofacial cuenta con amplios conocimientos en cirugía oral y maxilofacial que le permiten realizar extracciones complicadas, injertos óseos e implantes dentales, entre muchos otros tratamientos.",
+        "La Cirugía Oral y Maxilofacial es una especialidad de la Odontología que ofrece a nuestros pacientes alternativas de tratamiento médico y quirúrgico a diferentes problemas de salud, entre los que se encuentran: Cirugía de terceros molares, Cirugía gingivales, Regeneraciones óseas e Implantes Dentales",
     },
     {
       id: 4,
