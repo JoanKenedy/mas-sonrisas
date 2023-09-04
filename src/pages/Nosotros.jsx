@@ -2,6 +2,7 @@ import React from "react";
 import HeroAbout from "../components/HeroAbout";
 import LineaTime from "../components/LineaTime";
 import Team from "../components/Team";
+import RedesFlotantes from "../components/RedesFlotantes";
 
 const Nosotros = () => {
   let desplazamiento = document.documentElement.scrollTop;
@@ -19,7 +20,7 @@ const Nosotros = () => {
     <div>
       <HeroAbout />
       <LineaTime />
-
+      <RedesFlotantes />
       <Team />
     </div>
   );
