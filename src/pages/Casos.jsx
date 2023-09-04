@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/casos.css";
 import HeroCasos from "../components/HeroCasos";
 import AllCasos from "../components/AllCasos";
+import RedesFlotantes from "../components/RedesFlotantes";
 
 const Casos = () => {
   let desplazamiento = document.documentElement.scrollTop;
@@ -19,6 +20,7 @@ const Casos = () => {
     <div className="casos">
       <HeroCasos />
       <AllCasos />
+      <RedesFlotantes />
     </div>
   );
 };

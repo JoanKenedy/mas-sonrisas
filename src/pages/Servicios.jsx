@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ContainerServicios from "../components/ContainerServicios";
 import HeroServicios from "../components/HeroServicios";
 import "../styles/hero-servicios.css";
+import RedesFlotantes from "../components/RedesFlotantes";
 
 const Servicios = () => {
   let desplazamiento = document.documentElement.scrollTop;
@@ -19,6 +20,7 @@ const Servicios = () => {
     <div id="topServicios">
       <HeroServicios />
       <ContainerServicios />
+      <RedesFlotantes />
     </div>
   );
 };
