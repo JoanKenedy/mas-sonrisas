@@ -11,7 +11,7 @@ const HeroCasos = () => {
           <div className="item-casos" data-aos="fade-up" data-aos-duration="1000">
             <div className="slider slider1">
             <div className="slider-item">
-              <video src={video9} autoPlay controls></video>
+              <video src={video9} autoPlay={true} controls muted></video>
             </div>
             </div>
           </div>

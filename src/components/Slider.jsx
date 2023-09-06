@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/slider.css";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -25,11 +25,15 @@ const Slider = () => {
     <div className="slider">
       <div className="slider-item">
         <Swiper
-          modules={[Navigation, Pagination]}
+          modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={50}
           slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
+          autoplay={{
+            delay: 6000,
+            disableOnInteraction: false,
+          }}
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}
         >
