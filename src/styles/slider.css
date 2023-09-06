@@ -1,0 +1,14 @@
+
+.slider1 {
+  display: contents;
+}
+.slider .slider-item {
+  width: 300px;
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.7);
+}
+.slider .slider-item video {
+  width: inherit;
+}
+:root {
+  --swiper-theme-color: gray !important;
+}

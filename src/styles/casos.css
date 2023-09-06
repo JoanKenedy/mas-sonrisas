@@ -1,20 +1,28 @@
 .hero-casos {
   background-color: #2e2e2e;
-  height: 70vh;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 .container-casos {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   padding: 20px;
   gap: 15px;
+  margin-top: 60px;
 }
 .item-casos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.item-casos2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,11 +35,27 @@
   color: #fff;
   font-size: 2.1em;
 }
+.item-casos2 h2 {
+  color: black;
+  font-size: 2.1em;
+}
 .item-casos h3 {
-  display: none;
+  display: block;
+  color: white;
+  font-size: 1.4em;
+}
+.item-casos2 h3 {
+  display: block;
+  font-size: 1.4em;
+  text-align: center;
 }
 .item-casos p {
   color: #fff;
+  font-size: 1.1em;
+  font-weight: 700;
+  text-align: center;
+}
+.item-casos2 p {
   font-size: 1.1em;
   font-weight: 700;
   text-align: center;
@@ -49,11 +73,50 @@
   padding: 10px;
   font-weight: 600;
 }
+.item-casos2 a {
+  display: block;
+  margin: 12px auto;
+  background-color: #2e2e2e;
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.3em;
+  width: 180px;
+  padding: 10px;
+  font-weight: 600;
+}
 
+.main-container {
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+}
+.slider-container {
+  position: relative;
+  height: 100%;
+}
+.container-images {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.container-images video {
+  height: 350px;
+}
+.container-slider {
+  width: 100%;
+}
+.slider-final {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  margin-top: 20px;
+}
 @media (min-width: 768px) {
   .hero-casos {
     background-color: #2e2e2e;
-    height: 85vh;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -66,6 +129,7 @@
     width: 90%;
     margin: auto;
     gap: 20px;
+    margin-top: 100px;
   }
   .item-casos {
     display: flex;
@@ -87,6 +151,19 @@
     padding: 15px;
     font-weight: 600;
   }
+  .item-casos2 a {
+    display: block;
+    margin: 20px auto;
+    background-color: #2e2e2e;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    width: 250px;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
   .item-casos h2 {
     display: none;
   }
@@ -97,5 +174,15 @@
   }
   .item-casos p {
     font-size: 1.8em;
+  }
+  .item-casos2 {
+    margin-left: 40px;
+    width: 500px;
+  }
+  .item-casos2 h3 {
+    font-size: 2.5em;
+  }
+  .slider-final {
+    flex-direction: row;
   }
 }
