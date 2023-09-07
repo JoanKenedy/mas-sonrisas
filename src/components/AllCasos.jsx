@@ -25,6 +25,14 @@ const AllCasos = () => {
             <img src={Caso1} alt="" />
           </div>
           <div
+            className="sub-item-all-casos caso-mov"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <h2 className="sub-title">Después</h2>
+            <img src={Caso2} alt="" />
+          </div>
+          <div
             className="sub-item-all-casos"
             data-aos="zoom-in"
             data-aos-duration="1000"
@@ -52,7 +60,7 @@ const AllCasos = () => {
             </a>
           </div>
           <div
-            className="sub-item-all-casos"
+            className="sub-item-all-casos caso-des"
             data-aos="fade-left"
             data-aos-duration="1000"
           >
@@ -68,6 +76,14 @@ const AllCasos = () => {
           >
             <h2 className="sub-title">Antes</h2>
             <img src={Caso3} alt="" />
+          </div>
+          <div
+            className="sub-item-all-casos caso-mov"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <h2 className="sub-title">Después</h2>
+            <img src={Caso4} alt="" />
           </div>
           <div
             className="sub-item-all-casos"
@@ -94,7 +110,7 @@ const AllCasos = () => {
             </a>
           </div>
           <div
-            className="sub-item-all-casos"
+            className="sub-item-all-casos caso-des"
             data-aos="fade-left"
             data-aos-duration="1000"
           >
@@ -110,6 +126,14 @@ const AllCasos = () => {
           >
             <h2 className="sub-title">Antes</h2>
             <img src={Caso5} alt="" />
+          </div>
+          <div
+            className="sub-item-all-casos caso-mov"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <h2 className="sub-title">Después</h2>
+            <img src={Caso6} alt="" />
           </div>
           <div
             className="sub-item-all-casos"
@@ -136,7 +160,7 @@ const AllCasos = () => {
             </a>
           </div>
           <div
-            className="sub-item-all-casos"
+            className="sub-item-all-casos caso-des"
             data-aos="fade-left"
             data-aos-duration="1000"
           >
@@ -152,6 +176,14 @@ const AllCasos = () => {
           >
             <h2 className="sub-title">Antes</h2>
             <img src={Caso7} alt="" />
+          </div>
+          <div
+            className="sub-item-all-casos caso-mov"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <h2>Después</h2>
+            <img src={Caso8} alt="" />
           </div>
           <div
             className="sub-item-all-casos"
@@ -180,7 +212,7 @@ const AllCasos = () => {
             </a>
           </div>
           <div
-            className="sub-item-all-casos"
+            className="sub-item-all-casos caso-des"
             data-aos="fade-left"
             data-aos-duration="1000"
           >
