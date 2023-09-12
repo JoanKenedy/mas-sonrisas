@@ -12,7 +12,7 @@ const AllCasos = () => {
   return (
     <div className="all-casos">
       <h2 className="title-all-casos">
-        Por que nuestro trabajo, siempre habla bien de nosotros
+        Porque nuestro trabajo, siempre habla bien de nosotros
       </h2>
       <div className="container-all-casos">
         <div className="item-all-casos">

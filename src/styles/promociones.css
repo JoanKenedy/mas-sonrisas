@@ -1,0 +1,27 @@
+.container-promos {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  justify-items: center;
+  margin-bottom: 35px;
+}
+.container-promos img {
+  width: 90%;
+  filter: drop-shadow(10px 10px 4px gray);
+  padding: 0 15px;
+  margin-bottom: 15px;
+}
+h2 {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 2em;
+}
+@media (min-width: 798px) {
+  h2 {
+    font-size: 2.5em;
+  }
+  .container-promos {
+    grid-template-columns: repeat(3, minmax(300px, 500px));
+    gap: 0;
+  }
+}

@@ -4,6 +4,7 @@ import About from "../components/About";
 import Instalaciones from "../components/Instalaciones";
 import Services from "../components/Services";
 import RedesFlotantes from "../components/RedesFlotantes";
+import Promociones from "../components/Promociones";
 
 const Home = () => {
   let desplazamiento = document.documentElement.scrollTop;
@@ -21,6 +22,7 @@ const Home = () => {
     <div>
       <Hero />
       <About />
+      <Promociones />
       <Services />
       <RedesFlotantes />
       <Instalaciones />

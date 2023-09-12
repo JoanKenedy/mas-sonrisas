@@ -9,6 +9,20 @@
   overflow-x: hidden;
   overflow-y: hidden;
 }
+.promo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.promo-container img {
+  width: -webkit-fill-available;
+  margin-bottom: 35px;
+}
+.promo-container h2 {
+  font-size: 2em;
+  margin-top: 0;
+}
 .container-casos {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -113,7 +127,19 @@
   flex-direction: column-reverse;
   margin-top: 20px;
 }
+.img2 {
+  display: none;
+}
 @media (min-width: 768px) {
+  .img2 {
+    display: block;
+  }
+  .img1 {
+    display: none;
+  }
+  .promo-container h2 {
+    font-size: 2.5em;
+  }
   .hero-casos {
     background-color: #2e2e2e;
     height: auto;

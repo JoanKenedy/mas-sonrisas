@@ -51,7 +51,7 @@ const Hero = () => {
           >
             <div className="text-slider">
               <p>
-                ¡Trabajos en excelencia a un nivel poco visto en el mercado. !
+                ¡Trabajos en excelencia a un nivel poco visto en el mercado!
               </p>
             </div>
           </div>

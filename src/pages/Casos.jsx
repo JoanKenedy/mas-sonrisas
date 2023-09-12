@@ -4,6 +4,8 @@ import HeroCasos from "../components/HeroCasos";
 import AllCasos from "../components/AllCasos";
 import RedesFlotantes from "../components/RedesFlotantes";
 import Slider from "../components/Slider";
+import promocion from "../assets/carillas-promo-sonrisas.jpg";
+import promocion1 from "../assets/carillas-cuadrado-sonrisas.jpg";
 
 const Casos = () => {
   let desplazamiento = document.documentElement.scrollTop;
@@ -20,6 +22,11 @@ const Casos = () => {
   return (
     <div className="casos">
       <HeroCasos />
+      <div className="promo-container">
+        <h2>Promoción</h2>
+        <img className="img1" src={promocion1} alt="" />
+        <img className="img2" src={promocion} alt="" />
+      </div>
       <AllCasos />
       <div className="container-slider">
         <div className="slider-final">
@@ -39,6 +46,11 @@ const Casos = () => {
             </a>
           </div>
         </div>
+      </div>
+      <div className="promo-container">
+        <h2>Promoción</h2>
+        <img className="img1" src={promocion1} alt="" />
+        <img className="img2" src={promocion} alt="" />
       </div>
       <RedesFlotantes />
     </div>
